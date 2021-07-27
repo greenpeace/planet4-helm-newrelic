@@ -14,7 +14,7 @@ RELEASE := p4-newrelic
 NAMESPACE	:= kube-system
 
 CHART_NAME := newrelic/nri-bundle
-CHART_VERSION	:= 2.12.2
+CHART_VERSION	:= 1.11.3
 
 .DEFAULT_GOAL := status
 
