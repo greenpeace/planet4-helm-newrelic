@@ -13,10 +13,8 @@ logging:
   enabled: false
 
 kube-state-metrics:
+  tag: v2.0.0
   resources:
-    limits:
-      cpu: 100m
-      memory: 64Mi
     requests:
       cpu: 10m
       memory: 32Mi
