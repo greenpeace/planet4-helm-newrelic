@@ -13,11 +13,8 @@ logging:
   enabled: false
 
 kube-state-metrics:
+  # default_resources_are_now_set:https://github.com/newrelic/helm-charts/tree/newrelic-infrastructure-2.2.0/charts/newrelic-infrastructure#resources
   tag: v2.0.0
-  resources:
-    requests:
-      cpu: 10m
-      memory: 32Mi
   volumeattachments: false
   validatingwebhookconfigurations: false
   mutatingwebhookconfigurations: false
