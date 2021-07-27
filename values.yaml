@@ -15,9 +15,9 @@ logging:
 kube-state-metrics:
   tag: v2.0.0
   resources:
-    limits:
-      cpu: 300m
-      memory: 200Mi
+#    limits:
+#      cpu: 300m
+#      memory: 200Mi
     requests:
       cpu: 10m
       memory: 32Mi
