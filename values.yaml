@@ -29,7 +29,7 @@ kube-state-metrics:
 newrelic-infrastructure:
   resources:
     limits:
-      cpu: 300m
+#      cpu: 300m
       memory: 200Mi
     requests:
       cpu: 100m
